@@ -4,7 +4,7 @@
  
 - [Servers](#servers)
 - [API Methods](#api-methods)
-  - [Get a random book](#get-random-book)
+  - [Get a random book](#get-a-random-book)
   - [List Books](#list-all-books)
   - [Get Book By ID](#get-a-book-by-id)
   - [List Authors](#list-authors)
