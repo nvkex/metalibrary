@@ -27,15 +27,15 @@ const books = [
         summary: 'This book is the sailor Ishmael\'s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship\'s previous voyage bit off Ahab\'s leg at the knee.'
     },
     {
-        title: 'A set of six',
-        author: ' Joseph Conrad',
-        genre: [' Classic ', 'Literature', 'Fiction'],
-        ISBN: 'OL17936121M',
+        title: 'A Set of Six',
+        author: 'Joseph Conrad',
+        genre: [' Classic ', 'Literature', 'Non-Fiction'],
+        ISBN: '9781519559296',
         ref: [
             'https://archive.org/stream/setofsix00conr?ref=ol'
         ],
-        DeweyDecimal: 813.3,
-        summary: 'The six stories in this volume are the result of some three or four years of occasional work. The dates of their writing are far apart, their origins are various. None of them are connected directly with personal experiences. In all of them the facts are inherently true, by which I mean that they are not only possible but that they have actually happened. For instance, the last story in the volume, the one I call Pathetic, whose first title is Il Conde (misspelt by-the-by) is an almost verbatim transcript of the tale told me by a very charming old gentleman whom I met in Italy.'
+        DeweyDecimal: null,
+        summary: 'The stories in this collection are the result of many years of hard work. Covering a long span of time all of these are based on real-life events. Covering multifarious aspects of life this work is bound to engross and interest the readers. Conrad\'s realism combined with the differing experiences has produced this enduring work.'
     }
 ];
 
