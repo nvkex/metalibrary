@@ -36,6 +36,17 @@ const books = [
         ],
         DeweyDecimal: null,
         summary: 'The stories in this collection are the result of many years of hard work. Covering a long span of time all of these are based on real-life events. Covering multifarious aspects of life this work is bound to engross and interest the readers. Conrad\'s realism combined with the differing experiences has produced this enduring work.'
+    },
+    {
+        title: 'Mein Kampf',
+        author: 'Adolf Hitler',
+        genre: ['Autobiography ', 'Non-Fiction'],
+        ISBN: '9780395951057',
+        ref: [
+            'https://en.wikipedia.org/wiki/Mein_Kampf'
+        ],
+        DeweyDecimal: 943.086092,
+        summary: 'Mein Kampf is a 1925 autobiographical manifesto by Nazi Party leader Adolf Hitler. The work describes the process by which Hitler became antisemitic and outlines his political ideology and future plans for Germany.'
     }
 ];
 
