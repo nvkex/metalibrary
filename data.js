@@ -47,6 +47,17 @@ const books = [
         ],
         DeweyDecimal: 943.086092,
         summary: 'Mein Kampf is a 1925 autobiographical manifesto by Nazi Party leader Adolf Hitler. The work describes the process by which Hitler became antisemitic and outlines his political ideology and future plans for Germany.'
+    },
+    {
+        title: 'The Great Gatsby',
+        author: 'F. Scott Fitzgerald',
+        genre: ['Tragedy ', 'Realism', 'Modernism', 'Social Satire'],
+        ISBN: ' 9780743273565',
+        ref: [
+            'https://en.wikipedia.org/wiki/The_Great_Gatsby'
+        ],
+        DeweyDecimal: null,
+        summary: 'The story of the book primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession to reunite with his ex-lover, the beautiful former debutante Daisy Buchanan.'
     }
 ];
 
