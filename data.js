@@ -58,6 +58,17 @@ const books = [
         ],
         DeweyDecimal: null,
         summary: 'The story of the book primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession to reunite with his ex-lover, the beautiful former debutante Daisy Buchanan.'
+    },
+    {
+        title: 'Memoirs of a Geisha',
+        author: 'Arthur Golden',
+        genre: ['Historical', 'Fiction', 'Novel'],
+        ISBN: '9780679781585',
+        ref: [
+            'https://en.wikipedia.org/wiki/Memoirs_of_a_Geisha'
+        ],
+        DeweyDecimal: 813,
+        summary: 'The novel, told in first person perspective, tells the story of a fictional geisha working in Kyoto, Japan, before, during, and after World War II and ends with her being relocated to New York City.'
     }
 ];
 
