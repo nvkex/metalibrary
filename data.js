@@ -69,6 +69,17 @@ const books = [
         ],
         DeweyDecimal: 813,
         summary: 'The novel, told in first person perspective, tells the story of a fictional geisha working in Kyoto, Japan, before, during, and after World War II and ends with her being relocated to New York City.'
+    },
+    {
+        title: 'Pierre; or, The Ambiguities',
+        author: 'Herman Melville',
+        genre: ['Psychological', 'Fiction', 'Novel', 'Gothic'],
+        ISBN: '9780140434842',
+        ref: [
+            'https://en.wikipedia.org/wiki/Pierre;_or,_The_Ambiguities'
+        ],
+        DeweyDecimal: null,
+        summary: 'The novel, which uses many conventions of Gothic fiction, develops the psychological, sexual, and family tensions between Pierre Glendinning; his widowed mother; Glendinning Stanley, his cousin; Lucy Tartan, his fiancée; and Isabel Banford, who is revealed to be his half-sister.'
     }
 ];
 
