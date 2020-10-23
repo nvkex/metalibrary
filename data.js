@@ -25,6 +25,61 @@ const books = [
         ],
         DeweyDecimal: 813.3,
         summary: 'This book is the sailor Ishmael\'s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship\'s previous voyage bit off Ahab\'s leg at the knee.'
+    },
+    {
+        title: 'A Set of Six',
+        author: 'Joseph Conrad',
+        genre: [' Classic ', 'Literature', 'Non-Fiction'],
+        ISBN: '9781519559296',
+        ref: [
+            'https://archive.org/stream/setofsix00conr?ref=ol'
+        ],
+        DeweyDecimal: null,
+        summary: 'The stories in this collection are the result of many years of hard work. Covering a long span of time all of these are based on real-life events. Covering multifarious aspects of life this work is bound to engross and interest the readers. Conrad\'s realism combined with the differing experiences has produced this enduring work.'
+    },
+    {
+        title: 'Mein Kampf',
+        author: 'Adolf Hitler',
+        genre: ['Autobiography ', 'Non-Fiction'],
+        ISBN: '9780395951057',
+        ref: [
+            'https://en.wikipedia.org/wiki/Mein_Kampf'
+        ],
+        DeweyDecimal: 943.086092,
+        summary: 'Mein Kampf is a 1925 autobiographical manifesto by Nazi Party leader Adolf Hitler. The work describes the process by which Hitler became antisemitic and outlines his political ideology and future plans for Germany.'
+    },
+    {
+        title: 'The Great Gatsby',
+        author: 'F. Scott Fitzgerald',
+        genre: ['Tragedy ', 'Realism', 'Modernism', 'Social Satire'],
+        ISBN: ' 9780743273565',
+        ref: [
+            'https://en.wikipedia.org/wiki/The_Great_Gatsby'
+        ],
+        DeweyDecimal: null,
+        summary: 'The story of the book primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession to reunite with his ex-lover, the beautiful former debutante Daisy Buchanan.'
+    },
+    {
+        title: 'Memoirs of a Geisha',
+        author: 'Arthur Golden',
+        genre: ['Historical', 'Fiction', 'Novel'],
+        ISBN: '9780679781585',
+        ref: [
+            'https://en.wikipedia.org/wiki/Memoirs_of_a_Geisha'
+        ],
+        DeweyDecimal: 813,
+        summary: 'The novel, told in first person perspective, tells the story of a fictional geisha working in Kyoto, Japan, before, during, and after World War II and ends with her being relocated to New York City.'
+    },
+    {
+        title: 'Pierre; or, The Ambiguities',
+        author: 'Herman Melville',
+        genre: ['Psychological', 'Fiction', 'Novel', 'Gothic'],
+        ISBN: '9780140434842',
+        ref: [
+            'https://en.wikipedia.org/wiki/Pierre;_or,_The_Ambiguities'
+        ],
+        DeweyDecimal: null,
+        summary: 'The novel, which uses many conventions of Gothic fiction, develops the psychological, sexual, and family tensions between Pierre Glendinning; his widowed mother; Glendinning Stanley, his cousin; Lucy Tartan, his fiancée; and Isabel Banford, who is revealed to be his half-sister.'
     }
 ];
 
