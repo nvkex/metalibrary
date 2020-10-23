@@ -8,3 +8,12 @@ const { books } = require('../data');
 exports.getAll = (req,res) => {
     res.send({books});
 }
+
+exports.getRandom = (req, res) => {
+
+    const length = books.length;
+    console.log(length)
+    const randomIndex = Math.random() * length;
+    console.log(randomIndex)
+    res.send({book: books[randomIndex]});
+}
