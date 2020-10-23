@@ -77,6 +77,7 @@ GET /all
 | :-------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | author    | `String` | Filter books by author name. Doesn't support fuzzy search.                                                                                                                                                                                                                                                             |
 | authorId  | `String` | Filter books by author ID.                                                                                                                                                                                                                                                                                      |
+| sortOrder    | `enum: ['asc', 'desc']` | Sort books by title.                                                                                                                                                                                                   |
 | limit     | `Int`    | The number of books to return per request. (for pagination).                                                                                                                                                                                                                                                    |
 | skip      | `Int`    | The number of items to skip (for pagination).                                                                                                                                                                                                                                                                    |
 | maxPages | `Int`    | The maximum number of pages ( can be combined with `minPages` )                                                                                                                                                                                                                                            |
@@ -89,8 +90,6 @@ GET /all
 {
   // The number of books returned by this request
   count: number
-  // The total number of books matching this request
-  totalCount: number
   // The index of the last book returned. When paginating through results,
   // this value would be used as the `skip` parameter when requesting the next
   // "page" of results.
@@ -170,12 +169,10 @@ GET /authors
 {
   // The number of authors return by this request.
   count: number
-  // The total number of authors matching this request.
-  totalCount: number
   // The index of the last item returned. When paginating through results,
   // this value would be used as the `skip` parameter when requesting the next
-  // "page" of results. It will be set to `null` if there are no additional results.
-  lastItemIndex: number | null
+  // "page" of results.
+  lastItemIndex: number
   // The array of authors
   results: Array<{
     // A unique id for this author
