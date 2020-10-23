@@ -6,7 +6,25 @@ const { books } = require('../data');
  * @param {Object} res 
  */
 exports.getAll = (req, res) => {
-    res.send({ books });
+    const { sortOrder, limit, skip } = req.body;
+    var filteredBooks = [...books];
+
+    // Index of last item
+    var lastItemindex = filteredBooks.length - 1;
+
+    // Sort the result
+    if (sortOrder == 'asc')
+        filteredBooks.sort((a, b) => a.title.localeCompare(b.title));
+    else if (sortOrder == 'desc')
+        filteredBooks.sort((a, b) => b.title.localeCompare(a.title));
+
+    // limit & skip entries for pagination
+    if (limit) {
+        filteredBooks = skip ? filteredBooks.slice(skip, skip + limit) : filteredBooks.slice(0, limit);
+        lastItemindex = limit + (skip ? skip : 0) - 1;
+    }
+
+    res.send({ count: filteredBooks.length, lastItemindex, results: filteredBooks });
 }
 
 /**
@@ -59,5 +77,5 @@ exports.getAuthors = (req, res) => {
     }
 
     // Return the book on randomIndex in result key
-    res.send({ count: authors.length, lastItemindex, result: authors });
+    res.send({ count: authors.length, lastItemindex, results: authors });
 }
