@@ -80,6 +80,17 @@ const books = [
         ],
         DeweyDecimal: null,
         summary: 'The novel, which uses many conventions of Gothic fiction, develops the psychological, sexual, and family tensions between Pierre Glendinning; his widowed mother; Glendinning Stanley, his cousin; Lucy Tartan, his fiancée; and Isabel Banford, who is revealed to be his half-sister.'
+    },
+    {
+        title: 'Pride and Prejudice',
+        author: 'Jane Austen',
+        genre: ['Classic', 'Regency', 'Novel', 'Romance', 'Fiction', 'Gothic'],
+        ISBN: ' 9780451479914',
+        ref: [
+            'https://en.wikipedia.org/wiki/Pride_and_Prejudice'
+        ],
+        DeweyDecimal: 823.7,
+        summary: 'The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.'
     }
 ];
 
