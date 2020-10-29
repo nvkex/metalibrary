@@ -85,13 +85,26 @@ const books = [
         title: 'Pride and Prejudice',
         author: 'Jane Austen',
         genre: ['Classic', 'Regency', 'Novel', 'Romance', 'Fiction', 'Gothic'],
-        ISBN: ' 9780451479914',
+        ISBN: '9780451479914',
         ref: [
             'https://en.wikipedia.org/wiki/Pride_and_Prejudice'
         ],
         DeweyDecimal: 823.7,
         summary: 'The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.'
+    },
+    {
+        title: 'Frankenstein',
+        author: 'Mary Shelley',
+        genre: ['Horror' 'Science Fiction', 'Novel', 'Fiction', 'Gothic'],
+        ISBN: '9780553212471',
+        ref: [
+            'https://en.wikipedia.org/wiki/Frankenstein'
+        ],
+        DeweyDecimal: 823.7,
+        pages: 280,
+        summary: 'Frankenstein or The Modern Prometheus is an 1818 novel written by English author Mary Shelley that tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment.'
     }
+    
 ];
 
 module.exports = { books };
