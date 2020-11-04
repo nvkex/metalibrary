@@ -103,6 +103,18 @@ const books = [
         DeweyDecimal: 823.7,
         pages: 280,
         summary: 'Frankenstein or The Modern Prometheus is an 1818 novel written by English author Mary Shelley that tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment.'
+    },
+    {
+        title: 'The Hitchhiker\'s Guide to the Galaxy',
+        author: 'Douglas Adams',
+        genre: ['Comic' 'Science Fiction', 'Novel', 'Fiction'],
+        ISBN: '9780345391803',
+        ref: [
+            'https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)'
+        ],
+        DeweyDecimal: null,
+        pages: 224,
+        summary: 'The Hitchhiker\'s Guide to the Galaxy follows the misadventures of the last surviving man, Arthur Dent, following the demolition of the Earth by a Vogon constructor fleet to make way for a hyperspace bypass. Dent is rescued from Earth\'s destruction by Ford Prefect—a human-like alien writer for the eccentric, electronic travel guide The Hitchhiker\'s Guide to the Galaxy—by hitchhiking onto a passing Vogon spacecraft. Following his rescue, Dent explores the galaxy with Prefect and encounters Trillian, another human who had been taken from Earth (prior to its destruction) by the two-headed President of the Galaxy Zaphod Beeblebrox and the depressed Marvin, the Paranoid Android.'
     }
     
 ];
