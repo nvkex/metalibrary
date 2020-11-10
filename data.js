@@ -115,6 +115,19 @@ const books = [
         DeweyDecimal: null,
         pages: 224,
         summary: 'The Hitchhiker\'s Guide to the Galaxy follows the misadventures of the last surviving man, Arthur Dent, following the demolition of the Earth by a Vogon constructor fleet to make way for a hyperspace bypass. Dent is rescued from Earth\'s destruction by Ford Prefect—a human-like alien writer for the eccentric, electronic travel guide The Hitchhiker\'s Guide to the Galaxy—by hitchhiking onto a passing Vogon spacecraft. Following his rescue, Dent explores the galaxy with Prefect and encounters Trillian, another human who had been taken from Earth (prior to its destruction) by the two-headed President of the Galaxy Zaphod Beeblebrox and the depressed Marvin, the Paranoid Android.'
+    },
+    {
+        title: 'Anna Karenina',
+        author: 'Leo Tolstoy',
+        genre: ['Classics' 'Fiction', 'Romance', 'Literature', 'Novel', 'Classics'],
+        ISBN: '	9781847490599',
+        ref: [
+            'https://www.goodreads.com/book/show/15823480-anna-karenina',
+            'https://en.wikipedia.org/wiki/Anna_Karenina'
+        ],
+        DeweyDecimal: null,
+        pages: 964,
+        summary: 'Anna is a sophisticated woman who abandons her empty existence as the wife of Karenin and turns to Count Vronsky to fulfil her passionate nature - with tragic consequences. Levin is a reflection of Tolstoy himself, often expressing the author\'s own views and convictions.'
     }
     
 ];
