@@ -120,7 +120,7 @@ const books = [
         title: 'Anna Karenina',
         author: 'Leo Tolstoy',
         genre: ['Classics' 'Fiction', 'Romance', 'Literature', 'Novel', 'Classics'],
-        ISBN: '	9781847490599',
+        ISBN: '9781847490599',
         ref: [
             'https://www.goodreads.com/book/show/15823480-anna-karenina',
             'https://en.wikipedia.org/wiki/Anna_Karenina'
@@ -128,6 +128,19 @@ const books = [
         DeweyDecimal: null,
         pages: 964,
         summary: 'Anna is a sophisticated woman who abandons her empty existence as the wife of Karenin and turns to Count Vronsky to fulfil her passionate nature - with tragic consequences. Levin is a reflection of Tolstoy himself, often expressing the author\'s own views and convictions.'
+    },
+    {
+        title: '1984',
+        author: 'George Orwell',
+        genre: ['Classics' 'Fiction', 'Literature', 'Novel', 'Politics', 'Fantasy', 'Science Fiction', 'Adult'],
+        ISBN: '9780451524935',
+        ref: [
+            'https://www.goodreads.com/book/show/40961427-1984',
+            'https://en.wikipedia.org/wiki/Nineteen_Eighty-Four'
+        ],
+        DeweyDecimal: 823.912,
+        pages: 328,
+        summary: 'Published in 1949, the book offers political satirist George Orwell\'s nightmarish vision of a totalitarian, bureaucratic world and one poor stiff\'s attempt to find individuality.'
     }
     
 ];
